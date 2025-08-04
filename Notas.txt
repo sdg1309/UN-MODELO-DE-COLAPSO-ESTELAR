@@ -1,0 +1,9 @@
+import seaborn as sns
+from sklearn.datasets import make_regression
+from sklearn.preprocessing import StandardScaler
+
+
+df = pd.DataFrame(integrate_star_extended(Pc, T0))
+df = df.transpose()
+df.columns = ['r_vals', 'P_vals', 'm_vals', 'L_vals', 'T_vals']
+sc = StandardScaler()
